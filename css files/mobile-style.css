@@ -79,6 +79,8 @@ body{
 }
 
 .button1, .button2{
+    margin-top:0.9vh;
+    margin-bottom:none;
     margin-right:1vw;
     border: .15em solid;
     border-radius:10px;
@@ -108,7 +110,7 @@ h1{
 
 
 h2{
-    margin: 0;
+    margin: auto;
     padding:0;
 }
 
@@ -196,6 +198,10 @@ footer{
     color: white;
     padding: 2vw 2vh;
     font-size:0.8em;
+}
+
+.br-footer{
+    display:block;
 }
 
 .social{
