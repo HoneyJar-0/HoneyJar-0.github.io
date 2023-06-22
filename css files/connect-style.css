@@ -1,0 +1,42 @@
+.content, .content-alt{
+    width:100%;
+    height:fit-content;
+}
+
+.content h1, .content-alt h1{
+    text-align: center;
+    margin-top:0;
+    padding-top: 0;
+    padding-bottom: 5vh;
+    line-height: 9vh;
+    text-decoration: underline;
+}
+
+.social2{
+    width:10vw;
+    height:auto;
+    justify-items: center;
+}
+
+.info-flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.contact-box{
+    background: linear-gradient(rgba(249, 0, 191, .7), rgba(71, 0, 216, .7));
+    border-radius: 25px;
+    padding: 3vh 3vw;
+    margin-bottom: 10vh;
+    align-content: center;
+    width:30vw;
+    font-size: 1em;
+}
+
+.contact-box h2{
+    text-align: center;
+    font-size: 1.2em;
+}

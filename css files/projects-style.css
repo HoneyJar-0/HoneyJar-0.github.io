@@ -1,0 +1,63 @@
+.project-pane{
+    display:grid;
+    grid-template-areas: 'a a a'
+                         '. . .';
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.project-pane>:first-child{
+    grid-area: a;
+}
+
+.project-info{
+    width:30vw;
+    height:auto;
+}
+
+.project-img{
+    width:30vw;
+    height:auto;
+    border-radius: 25px;
+}
+
+.project-img:hover{
+    outline: rgba(137, 43, 226, 0.3) .5em solid;
+}
+
+.slideshow{
+    align-content: center;
+    justify-content: center;
+}
+
+.slide{
+    width:45vw;
+    height:auto;
+}
+
+.professional-experience{
+    padding:0vh 5vw;
+}
+
+.expVbox *{
+    width:auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.right-arrow, .left-arrow{
+    width:4vw;
+    background: rgba(226, 226, 226, 0.5);
+    border: none;
+}
+
+.right-arrow:hover, .left-arrow:hover{
+    background: rgba(226, 226, 226, 1);
+}
+
+.slide-and-content{
+    margin-left:3vw;
+    margin-right:3vw;
+    justify-content: space-between;
+    align-items: center;
+}

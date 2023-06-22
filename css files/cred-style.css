@@ -1,0 +1,47 @@
+.proficiencies{
+    display:grid;
+    grid-template-areas: 'a a a a a'
+                         '. . . . .';
+    height:fit-content;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    margin: 3vh 3vw;
+}
+
+.proficiencies>:first-child{
+    grid-area: a;
+    text-align: center;
+    padding-bottom: 10vh;
+    line-height: 9vh;
+    text-decoration: underline;
+}
+
+.prof-logo{
+    width:20vh;
+    height:auto;
+}
+
+
+.diagram{
+    width:auto;
+    height:auto;
+}
+
+.content, .content-alt{
+    width:100%;
+    height:fit-content;
+}
+
+.content, .content-alt h1{
+    text-align: center;
+    margin-top:0;
+    padding-top: 0;
+    padding-bottom: 5vh;
+    line-height: 9vh;
+    text-decoration: underline;
+}
+
+.content-alt{
+    background-color:rgb(217, 217, 251);
+}

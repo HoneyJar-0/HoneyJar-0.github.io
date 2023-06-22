@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--metadata-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Personal Portfolio"/>
+        <meta name="keywords" content="machine learning, artifical intelligence, ai, software developer"/>
+        <meta name="author" content="Jacob Reiss (HoneyJar_)"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--links and stylesheets-->
+        <link rel="stylesheet" href="../css files/style.css" />
+        <link rel="stylesheet" href="../css files/projects-style.css"/>
+        <script type="text/javascript" src="../javascript files/slideshow.js"></script>
+    </head>
+    <body onload="showSlide(0)">
+        <div class="hbox header">
+            <p class="alias">HoneyJar_</p>
+            <div class="hbox navigation">
+                <button class="nav-button" onclick="window.location.href='index.html'">About</button>
+                <button class="nav-button"  onclick="window.location.href='credentials.html'">Credentials</button>
+                <button class="nav-button" onclick="windows.location.href='connect.html'">Connect</button>
+                <button class="nav-button" onclick="window.location.href='projects.html'" style="color:black; font-weight: bold;">Projects</button>
+            </div>
+        </div>
+        <div class="hbox banner">
+            <div class="vbox name-skill">
+                <h1>Jacob Reiss</h1>
+                <h3>Machine learning specialist —</h3>
+                <div class="hbox downloads">
+                    <a download="../downloads/JReiss Portfolio Resume.pdf"><button id="download-resume" class="button1">Download Resume</button></a>
+                    <button id="contact-me" class="button2" onclick="window.location.href='connect.html'">Connect with me</button>
+                </div>
+            </div>
+            <img id="me" class="photo" src="../images/me.png"/>
+        </div>
+        <div class="divider"></div>
+        <h1 style="text-align: center; text-decoration: underline;">IQPC23 Mammals Project</h1>
+        <div class="hbox slide-and-content">
+            <div class="hbox slideshow">
+                <button class="left-arrow" onclick="changeSlide(-1)">&#10094;</button>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide1.PNG"/>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide2.PNG"/>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide3.PNG"/>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide4.PNG"/>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide5.PNG"/>
+                <img class="slide" src="../slideshows/Mammals Final Edited/Slide6.PNG"/>
+                <button class="right-arrow" onclick="changeSlide(+1)">&#10095;</button>
+            </div>
+            <div class="vbox" style="width:35vw;">
+                <h2>Summary:</h2>
+                <p>I designed and implemented a CNN for an ecologist in the Arava Valley in Israel, achieving 90% accuracy at classifying her camera trap data.</p>
+                <h2>Extra Notes:</h2>
+                <p>Currently, I am continuing the project without the constraints of WPI.</p>
+                <h2>Important Links:</h2>
+                <h3>GitHub Repository: <a href="https://github.com/HoneyJar-0/IQPMammalsC23.git">HoneyJar-0/IQPMammalsC23</a></h3>
+                <h3>WPI Article: <a href="https://digital.wpi.edu/show/ff3658442">IQP Index Catelog</a></h3>
+                <h3>Detailed Architecture of the Model: <a href="../images/model-diagram.svg">View Model</a></h3>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <footer>
+            <div class="hbox" style="justify-content: space-between;">
+                <div class="vbox">
+                    <p>Designed by: Jacob Reiss</p>
+                    <p>Contact me:<br style="display:block; margin:-.3em;"/> jacobtreiss1@gmail.com</p>
+                    <div class="hbox plugs">
+                        <img class="social" src="../icons/social plugs/instagram.svg" onclick="window.location.href=''"/>
+                        <img class="social" src="../icons/social plugs/linkedin.svg" onclick="window.location.href='https:\\www.linkedin.com/in/jacob-reiss-0017b61b4/'"/>
+                        <img class="social" src="../icons/social plugs/github.svg" onclick="window.location.href='https:\\github.com/HoneyJar-0'"/>
+                    </div>
+                </div>
+                <div class="vbox credits" style="text-align: right;">
+                    <p>Color engineer: Sky</p>
+                    <p>Graphics consultant: Carolyn, Evans</p>
+                    <p>Advisor: Vaansh</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

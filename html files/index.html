@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--metadata-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Personal Portfolio"/>
+        <meta name="keywords" content="machine learning, artifical intelligence, ai, software developer"/>
+        <meta name="author" content="Jacob Reiss (HoneyJar_)"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--links and stylesheets-->
+        <link rel="stylesheet" href="../css files/style.css" />
+    </head>
+    <body>
+        <div class="hbox header">
+            <p class="alias">HoneyJar_</p>
+            <div class="hbox navigation">
+                <button class="nav-button" onclick="window.location.href='index.html'" style="color:black; font-weight: bold;">About</button>
+                <button class="nav-button" onclick="window.location.href='credentials.html'">Credentials</button>
+                <button class="nav-button" onclick="window.location.href='connect.html'">Connect</button>
+                <button class="nav-button" onclick="window.location.href='projects.html'">Projects</button>
+            </div>
+        </div>
+        <div class="hbox banner">
+            <div class="vbox name-skill">
+                <h1>Jacob Reiss</h1>
+                <h3>Machine learning specialist —</h3>
+                <div class="hbox downloads">
+                    <a download="../downloads/JReiss Portfolio Resume.pdf"><button id="download-resume" class="button1">Download Resume</button></a>
+                    <button id="contact-me" class="button2" onclick="window.location.href='connect.html'">Connect with me</button>
+                </div>
+            </div>
+            <img id="me" class="photo" src="../images/me.png"/>
+        </div>
+        <div class="divider"></div>
+        <div class="hbox about">
+            <img class="clipart" src="../images/coder.svg"/>
+            <div class="vbox aboutVbox">
+                <h3>About</h3>
+                <h2>Who am I?</h2>
+                <p>My name is Jacob Reiss, but I also go by HoneyJar_ as an alias. I'm currently pursuing a Bachelor's and Master's degree in computer science at Worcester Polytechnic Institute. While studying at WPI, I gained a deep passion for machine learning and artificial intelligence, as well as other fields of study, like moral philosophy. I wish to help integrate machine learning into more industries and into people's everyday lives in a morally clean way- something I see a lot of tech companies failing to do.</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="divider-alt"></div>
+        <div class="hbox about" id="about2">
+            <div class="vbox aboutVbox">
+                <h3>Services</h3>
+                <h2>Why hire me?</h2>
+                <p>I can provide you with my machine learning and artificial intelligence skills to automate mundane tasks, help you with a passion project, research, or anything you'd like really. I can help you organize your computer files, make a game out of an AI for you, help you with the stock market, grow your business, improve your customer service and catering, automate any accounting tasks, and so much to make your life easier.</p>
+            </div>
+            <img class="clipart" src="../images/automation.svg"/>
+        </div>
+        <div class="divider-alt"></div>
+        <div class="divider"></div>
+        <h2 style="text-align: center; margin-bottom:5vh; margin-top:0; font-size:1.7em;">My Services:</h2>
+        <div class="service-pane">
+            <img id="automation" class="service-icon" title="I can automate many things for you!" height="24" width="24" src="../icons/bot.svg" />
+            <img id="ml-algo" class="service-icon" title="I can train AI to do whatever you'd like!" height="24" width="24" src="../icons/ml.svg" />
+            <img id="classification" class="service-icon" title="Need help labeling things? I got you!" height="24" width="24" src="../icons/image-processing.svg" />
+            <label for="automation">Automate Tasks</label>
+            <label for="ml-algo">AI Algorithms</label>
+            <label for="classification">Classification Tasks</label>
+            <img id="predictions" class="service-icon" title="I can predict data and trends for you!" height="24" width="24" src="../icons/chart-cluster-bar.svg" />
+            <img id="generate" class="service-icon" title="I can create new things from old stuff, like data or images!" height="24" width="24" src="../icons/document-conversion.svg" />
+            <img id="organize" class="service-icon" title="Tired of the clutter? I can help organize your digital spaces auto-magically!" height="24" widht="24" src="../icons/folder-search.svg" />
+            <label for="predictions">Make Predictions</label>
+            <label for="generate">Generate New Data</label>
+            <label for="organize">Organize Files</label>
+        </div>
+        <div class="divider"></div>
+        <footer>
+            <div class="hbox" style="justify-content: space-between;">
+                <div class="vbox">
+                    <p>Designed by: Jacob Reiss</p>
+                    <p>Contact me:<br style="display:block; margin:-.3em;"/> jacobtreiss1@gmail.com</p>
+                    <div class="hbox plugs">
+                        <img class="social" src="../icons/social plugs/instagram.svg" onclick="window.location.href=''"/>
+                        <img class="social" src="../icons/social plugs/linkedin.svg" onclick="window.location.href='https:\\www.linkedin.com/in/jacob-reiss-0017b61b4/'"/>
+                        <img class="social" src="../icons/social plugs/github.svg" onclick="window.location.href='https:\\github.com/HoneyJar-0'"/>
+                    </div>
+                </div>
+                <div class="vbox credits" style="text-align: right;">
+                    <p>Color engineer: Sky</p>
+                    <p>Graphics consultant: Carolyn, Evans</p>
+                    <p>Advisor: Vaansh</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
