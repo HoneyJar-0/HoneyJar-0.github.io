@@ -11,6 +11,7 @@
         <!--links and stylesheets-->
         <link rel="stylesheet" href="../css files/style.css" />
         <link rel="stylesheet" href="../css files/projects-style.css"/>
+        <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="../css files/mobile-style.css" />
         <script type="text/javascript" src="../javascript files/slideshow.js"></script>
     </head>
     <body onload="showSlide(0)">
@@ -19,7 +20,7 @@
             <div class="hbox navigation">
                 <button class="nav-button" onclick="window.location.href='../index.html'">About</button>
                 <button class="nav-button"  onclick="window.location.href='credentials.html'">Credentials</button>
-                <button class="nav-button" onclick="windows.location.href='connect.html'">Connect</button>
+                <button class="nav-button" onclick="window.location.href='connect.html'">Connect</button>
                 <button class="nav-button" onclick="window.location.href='projects.html'" style="color:black; font-weight: bold;">Projects</button>
             </div>
         </div>
@@ -34,8 +35,7 @@
             </div>
             <img id="me" class="photo" src="../images/me.png"/>
         </div>
-        <div class="divider"></div>
-        <h1 style="text-align: center; text-decoration: underline;">IQPC23 Mammals Project</h1>
+        <p class="title-p">IQPC23 Mammals Project</p>
         <div class="hbox slide-and-content">
             <div class="hbox slideshow">
                 <button class="left-arrow" onclick="changeSlide(-1)">&#10094;</button>
@@ -47,7 +47,7 @@
                 <img class="slide" src="../slideshows/Mammals Final Edited/Slide6.PNG"/>
                 <button class="right-arrow" onclick="changeSlide(+1)">&#10095;</button>
             </div>
-            <div class="vbox" style="width:35vw;">
+            <div class="vbox">
                 <h2>Summary:</h2>
                 <p>I designed and implemented a CNN for an ecologist in the Arava Valley in Israel, achieving 90% accuracy at classifying her camera trap data.</p>
                 <h2>Extra Notes:</h2>
