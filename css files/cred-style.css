@@ -22,7 +22,6 @@
     height:auto;
 }
 
-
 .diagram{
     width:auto;
     height:auto;
@@ -44,4 +43,22 @@
 
 .content-alt{
     background-color:rgb(217, 217, 251);
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .proficiencies{
+        display:grid;
+        grid-template-areas: 'a a'
+                             '. .';
+        height:fit-content;
+        justify-content: space-around;
+        justify-items: center;
+        align-content: center;
+        margin: 3vh 3vw;
+    }
+    .prof-logo{
+        width:20w;
+        height:auto;
+    }
 }
