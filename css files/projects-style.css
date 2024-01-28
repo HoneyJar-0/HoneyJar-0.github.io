@@ -17,9 +17,10 @@
 }
 
 .project-img{
-    height:33vh;
+    height:45vh;
     width:auto;
     border-radius: 25px;
+    margin:auto;
 }
 
 .project-img:hover{
@@ -73,6 +74,8 @@
 }
 
 .bordered-img{
-    width:29vw;
-    height:auto;
+    height:42vh;
+    width:auto;
+    border: 2pt solid black;
+
 }

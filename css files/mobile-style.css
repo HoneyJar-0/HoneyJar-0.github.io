@@ -65,8 +65,6 @@ body{
     margin-right:0;
 }
 .button1{
-    background: rgb(249, 0, 191);
-    color:white;
     margin-right:1vw;
     margin-bottom:3vh;
     border: .15em solid;
@@ -76,8 +74,6 @@ body{
 }
 
 .button2{
-    background-color: rgb(191, 0, 255);
-    color:white;
     margin-right:1vw;
     margin-bottom:3vh;
     border: .15em solid;
@@ -114,7 +110,6 @@ h3{
     margin: 0;
     margin-bottom: 2vh;
     font-size: 1em;
-    color:rgb(191, 0, 255);
 }
 
 .clipart{
