@@ -231,6 +231,11 @@ footer{
     display:block;
 }
 
+.footer-bee{
+    height:10vh; 
+    margin-top:2vh;
+}
+
 .credits{
     font-size: small;
 }

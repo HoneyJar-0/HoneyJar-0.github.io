@@ -2,22 +2,22 @@
 body{
     margin:0;
     background-color:aliceblue;
+    font-size: 1em;
 }
 
 .header{
     border-bottom: .1em solid rgb(68, 68, 68);
-    height: 10vh;
+    height: 5vh;
     width:100%;
+    align-content: space-between;
 }
 
 .alias{
-    margin:0%;
-    font-size: 0.9em;
+    margin:auto;
+    font-size: 1.4em;
+    margin-right:7vw;
+    margin-left: 2vw;
     font-weight: bold;
-    margin-right:5vw;
-    margin-left:3vw;
-    margin-top:auto;
-    margin-bottom:auto;
     text-align: center;
     text-justify: center;
 }
@@ -27,17 +27,17 @@ body{
     margin-bottom: 0%;
     justify-items: space-around;
     align-items: center;
+    height:100%;
     width:100%;
 }
 
 .nav-button{
-    width:100%;
     background: none;
     border: none;
     color: rgb(105, 105, 105);
-    height: 5vh;
+    height: 7vh;
+    width:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.7em;
 }
 
 .nav-button:hover{
@@ -49,19 +49,41 @@ body{
     align-content: center;
     justify-content: space-around;
     background: linear-gradient(rgba(249, 0, 191, .7), rgba(71, 0, 216, .7)), url("../images/graph-map.svg") no-repeat left, black;
-    background-size: auto;
-    height:30vh;
+    background-size: 80%;
+    height:25vh;
+    width: auto;
     color:white;
 }
 
 .photo{
-    height:25vh;
+    height:20vh;
     width:auto;
-    border-radius: 25px 0px 25px 0px;
-    border: .3em solid rgba(137, 43, 226, 0.3);
+    border-radius: 50px 0px 50px 0px;
+    border: 3pt solid rgba(137, 43, 226, 0.3);
     margin:auto;
     margin-left:0;
+    margin-right:0;
+}
+.button1{
+    background: rgb(249, 0, 191);
+    color:white;
     margin-right:1vw;
+    margin-bottom:3vh;
+    border: .15em solid;
+    border-radius:15px;
+    height:4vh;
+    width:auto;
+}
+
+.button2{
+    background-color: rgb(191, 0, 255);
+    color:white;
+    margin-right:1vw;
+    margin-bottom:3vh;
+    border: .15em solid;
+    border-radius:15px;
+    height:4vh;
+    width:auto;
 }
 
 .name-skill{
@@ -74,38 +96,12 @@ body{
 
 .name-skill>:nth-child(2){
     color:white;
-    font-size:1.1em;
-    line-height: 1.1em;
-}
-
-.button1, .button2{
-    margin-top:0.9vh;
-    margin-bottom:none;
-    margin-right:1vw;
-    border: .15em solid;
-    border-radius:10px;
-    height:5vh;
-    width:auto;
-    font-size: 0.7em;
-}
-
-.button1{
-    border-color:rgb(249, 0, 191);
-    background: rgba(249, 0, 191, .2);
-    color:rgb(249, 0, 191);
-}
-
-.button2{
-    border-color:rgb(191, 0, 255);
-    background-color: rgba(191, 0, 255, .2);
-    color:rgb(191, 0, 255);
+    font-size:1.7em;
 }
 
 h1{
-    margin: 0;
-    padding:0;
-    font-size:2.5em;
-    line-height: 2.5em;
+    font-size:2.4em;
+    margin-top: 3vh;
 }
 
 
@@ -116,34 +112,35 @@ h2{
 
 h3{
     margin: 0;
-    padding:0;
-    font-size: 0.9em;
+    margin-bottom: 2vh;
+    font-size: 1em;
     color:rgb(191, 0, 255);
 }
 
 .clipart{
-    width: 33vw;
-    height:auto;
-    grid-area: a;
-    margin:auto;
+    height: 15vh;
+    width: auto;
+    margin-left:1vw;
+    margin-right:1vw;
 
 }
 
 .about{
-    display:grid !important;
-    grid-template-areas: '.' 'a';
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 10vh;
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
 .aboutVbox{
     border-radius: 25px;
     box-sizing: border-box;
     width:100%;
+}
+
+.aboutVbox *{
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .aboutVbox>:first-child{
@@ -164,20 +161,22 @@ p{
 .service-pane{
     display: grid;
     grid-template: auto auto auto / auto auto auto;
-    align-content: center;
+    align-content: space-around;
     justify-content: space-around;
     text-align: center;
-    font-size: 0.7em;
+    row-gap: 2vh;
+    margin-left: 2vw;
+    margin-right:2vw;
 }
 
 .service-icon{
-    width: 20vw;
-    height:auto;
-    margin:auto;
+    height: 8vh;
+    width:auto;
+    margin-left: 7vw;
 }
 
 .divider{
-    height:10vh;
+    height:3vh;
 }
 
 #about2{
@@ -185,7 +184,7 @@ p{
 }
 
 .divider-alt{
-    height: 10vh;
+    height: 3vh;
     background-color: rgb(217, 217, 251);
 }
 
@@ -197,19 +196,20 @@ footer{
     background-color: rgba(91, 33, 207, 0.9);
     color: white;
     padding: 2vw 2vh;
-    font-size:0.8em;
-}
-
-.br-footer{
-    display:block;
+    font-size: 1pt;
 }
 
 .social{
     padding:0;
     padding-right:1vw;
     padding-left: 0;
-    width:10vw;
-    height:auto;
+    height:5vh;
+    width:auto;
+}
+
+.br-footer{
+    display:block;
+    margin:0;
 }
 
 
@@ -229,11 +229,178 @@ footer{
 
 .pdf{
     margin: 0;
-    width:100%;
-    height:100vh;
+    margin-left: 5%;
+    margin-right:5%;
+    height:50vh;
+    width:90%;
+    
     display:block;
 }
 
+.footer-bee{
+    height:6vh; 
+    margin-top:2vh;
+    margin-right:0;
+    margin-left: 25vw;
+}
+
 .credits{
-    font-size: 0.7em;
+    align-content: right;
+}
+
+/*credentials.html*/
+.prof-logo{
+    height:10vh;
+    width:auto;
+    margin:1vh;
+}
+
+.proficiencies{
+    display:grid;
+    grid-template-areas: 'a a a'
+                         '. . .'
+                         '. . .'
+                         '. . .'
+                         'b b b';
+    height:fit-content;
+    justify-content: space-around;
+    align-content: center;
+    margin: 3vh 3vw;
+}
+
+/*connect.html*/
+.content, .content-alt{
+    width:100%;
+    height:100%;
+}
+
+.content h1, .content-alt h1{
+    text-align: center;
+    margin-top:0;
+    padding-top: 0;
+    padding-bottom: 1vh;
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.info-flex{
+    flex-direction: column;
+}
+
+.contact-box{
+    background: linear-gradient(rgba(249, 0, 191, .7), rgba(71, 0, 216, .7));
+    border-radius: 25px;
+    padding: 3vh;
+    align-content: center;
+    height:fit-content;
+    width:75%;
+    font-size: 1em;
+    margin-bottom:5vh;
+}
+
+.contact-box li{
+    font-size:1em;
+}
+
+.contact-box p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.happy-bee{
+    height: 20vh;
+    width:auto;
+}
+
+.social2{
+    height:8vh;
+    width:auto;
+}
+
+/*projects.html and iqp.html*/
+.project-pane{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+}
+
+.project-info{
+    height:100%;
+    width:auto;
+    margin:auto;
+    text-align: center;
+    padding-bottom:2vh;
+}
+
+.project-info h3{
+    font-size:0.7em;
+    margin:0;
+    margin-bottom:1vh;
+}
+
+.project-img{
+    height:15vh;
+    width:auto;
+    border-radius: 25px;
+    margin:auto;
+}
+
+.project-img:hover{
+    outline: rgba(137, 43, 226, 0.3) .5em solid;
+}
+
+.slideshow{
+    align-content: center;
+    justify-content: center;
+}
+
+.slide{
+    height:20vh;
+    width:auto;
+}
+
+.expVbox *{
+    width:auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.right-arrow, .left-arrow{
+    width:4vw;
+    background: rgba(226, 226, 226, 0.5);
+    border: none;
+}
+
+.right-arrow:hover, .left-arrow:hover{
+    background: rgba(226, 226, 226, 1);
+}
+
+.title-p{
+    text-align: center; 
+    font-size: 2.4em; 
+    font-weight: bold; 
+    margin-top:3vh; 
+    margin-bottom:3vh; 
+    text-decoration-line: underline;
+}
+
+.slide-and-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide-and-content .vbox{
+    width:auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.bordered-img{
+    height:15vh;
+    width:auto;
+    margin:auto;
 }
