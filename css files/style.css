@@ -225,8 +225,9 @@ footer{
     margin: 0;
     margin-left: 5%;
     margin-right:5%;
+    height:100vh;
     width:90%;
-    height:150vh;
+    
     display:block;
 }
 
