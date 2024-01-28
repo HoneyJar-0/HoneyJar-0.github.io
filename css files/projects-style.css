@@ -4,6 +4,7 @@
                          '. . .';
     justify-content: space-evenly;
     align-content: center;
+    margin:auto;
 }
 
 .project-pane>:first-child{
@@ -11,13 +12,13 @@
 }
 
 .project-info{
-    width:30vw;
-    height:auto;
+    height:100%;
+    width:auto;
 }
 
 .project-img{
-    width:30vw;
-    height:auto;
+    height:33vh;
+    width:auto;
     border-radius: 25px;
 }
 
@@ -36,7 +37,6 @@
 }
 
 .professional-experience{
-    padding:0vh 5vw;
 }
 
 .expVbox *{

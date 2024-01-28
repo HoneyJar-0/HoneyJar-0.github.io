@@ -12,7 +12,7 @@ body{
 }
 
 .alias{
-    margin:0%;
+    margin:auto;
     font-size: 1.8em;
     font-weight: bold;
     margin-right:45vw;
@@ -76,9 +76,8 @@ body{
 }
 
 .button1{
-    border-color:rgb(249, 0, 191);
-    background: rgba(249, 0, 191, .2);
-    color:rgb(249, 0, 191);
+    background: rgb(249, 0, 191);
+    color:white;
     margin-right:1vw;
     border: .15em solid;
     border-radius:15px;
@@ -87,9 +86,8 @@ body{
 }
 
 .button2{
-    border-color:rgb(191, 0, 255);
-    background-color: rgba(191, 0, 255, .2);
-    color:rgb(191, 0, 255);
+    background-color: rgb(191, 0, 255);
+    color:white;
     margin-right:1vw;
     border: .15em solid;
     border-radius:15px;
@@ -99,6 +97,7 @@ body{
 
 h1{
     margin: 0;
+    margin-bottom: -3vh;
     padding:0;
     font-size:3.4em;
 }
@@ -111,14 +110,14 @@ h2{
 
 h3{
     margin: 0;
-    padding:0;
+    margin-bottom: 2vh;
     font-size: 1em;
     color:rgb(191, 0, 255);
 }
 
 .clipart{
-    width: 33vw;
-    height:auto;
+    height: 43vh;
+    width: auto;
 
 }
 
@@ -127,7 +126,6 @@ h3{
     align-items: center;
     justify-content: space-evenly;
     align-content: space-evenly;
-    justify-content: space-evenly;
     margin-bottom: 10vh;
 }
 
@@ -155,6 +153,7 @@ h3{
 p{
     margin-bottom:0;
     margin-top:0;
+    font-size: large;
 }
 
 .service-pane{
@@ -163,6 +162,7 @@ p{
     align-content: center;
     justify-content: space-around;
     text-align: center;
+    row-gap: 2vh;
 }
 
 .service-icon{
@@ -203,7 +203,7 @@ footer{
 
 .br-footer{
     display:block;
-    margin:-.3em;
+    margin:0;
 }
 
 
