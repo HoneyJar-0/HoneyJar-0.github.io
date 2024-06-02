@@ -1,7 +1,7 @@
 .proficiencies{
     display:grid;
-    grid-template-areas: 'a a a a a'
-                         '. . . . .';
+    grid-template-areas: 'a a a a'
+                         '. . . .';
     height:fit-content;
     justify-content: space-around;
     justify-items: center;
